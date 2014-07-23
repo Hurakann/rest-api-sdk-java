@@ -1,3 +1,4 @@
+
 rest-api-sdk-java
 =================
 
@@ -63,33 +64,33 @@ SDK Samples
 
 Under test directory exists a bunchet of code snippets that allow testing diferent scenarios and shows you how to use the API with the SDK.
 
-Registering a user
-------
-Shows how to register an user using the default fields and extending of your own user settings
-
-Getting user info
-------
-Shows how to get information about the registered user
-
-Login 
-------
-Shows how to login an user using username, password, nfc and/or fingerprint
-
-Assign services to the user
-------
-Shows how to assign services to the user
-
-Get services for the user
-------
-Shows how to get services assigned to the user
-
-Searching an user
-------
-Shows how to search a user using default fields or customizing settings
+1. Profiles
+  1. Creating a profile
+  2. Fetching profiles
+  3. Updating profile
+2. User
+  1. Creating basic user
+  2. Creating user with login
+  3. Fetching user info
+  4. Login
+  5. Checking availability
+  6. Checking color and fetching data
+3. Merge
+  1. Merging users
+  2. Fetching merged 
+4. Nfc
+  1. Assigning nfc to user
+  2. Fetching assigned nfc cards
+  3. Updating nfc info
+5. Notifications
+  1. Creating user notification
+  2. Fetching all notifications
+  3. Fetching specific notification
+  4. Mark notification as read
 
 About
 =====
 
 You can find more info about courses of how to use the API, SDK's or integration of Hover into your app,
-visiting us at: http:// or mail us: thehover@hovanetworks.support.com
+visiting us at: http://www.thehover.com or mail us: thehover@hovanetworks.com
 
