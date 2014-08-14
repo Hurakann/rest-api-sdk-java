@@ -32,8 +32,8 @@ rotate way so each 1 MB the log file increases by 1
 
 The configuration for the sdk is based on an properties file where you must provide:
 
-* HTTP parameters
-* Tenant configuration
+* HTTP connection configuration
+* API access parameters
 * Credentials
 
 Configuring your sdk is easy, just create a file called `sdk-java.properties` like placed on resources and add to your application.Now provide the absolute path to properties file for loading as a resource,
