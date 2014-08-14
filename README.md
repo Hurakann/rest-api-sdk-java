@@ -41,7 +41,7 @@ Configuring your sdk is easy, just create a file called `sdk-java.properties` li
 	// SDK initializaton
 	SDKTools.initialize("/Users/zgbjgg/sdk_config.properties");
 ```
-Now the SDK is ready for use!!
+Now the SDK is ready to use!!
 
 Manage the request
 ===================
