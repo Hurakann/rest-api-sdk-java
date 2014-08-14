@@ -46,10 +46,13 @@ public class Config {
         Properties sys = System.getProperties();
         
         // All configuration to System
-        sys.setProperty("http.endpoint", properties.getProperty("http.endpoint"));
+        sys.setProperty("http.endpoint", properties.getProperty("http.endpoint") + ":" + properties.getProperty("http.port"));
         sys.setProperty("http.connection.timeout", properties.getProperty("http.connection.timeout"));
         sys.setProperty("http.connection.readtimeout", properties.getProperty("http.connection.readtimeout"));
-        
+	sys.setProperty("ckey", properties.getProperty("ckey"));
+	sys.setProperty("user_id", properties.getProperty("user_id"));        
+	sys.setProperty("branch-id", properties.getProperty("branch-id"));
+
         // Log [INFO] Prepare http request 
         Logger.getLogger("rest-api-sdk-java").log(Level.INFO, Logs.LOG_CONFIG,
                 new String[]{properties.toString()}); 
