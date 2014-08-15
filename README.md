@@ -6,7 +6,7 @@ Hover API Rest SDK for Java bindings
 
 Welcome to the Hover SDK for Java, this SDK is for building a robust java application based on the Hover API.
 The Hover SDK for Java makes it easy to integrate a full Hover API services into java apps.
-All documentation about classes, methods, etc.. are published into a [javadoc](https://zgbjgg.github.io/rest-api-sdk-java/ "REST API Hover SDK for Java Bindings")
+All documentation about classes, methods, etc.. are published into a [javadoc](https://TheHover.github.io/rest-api-sdk-java/ "REST API Hover SDK for Java Bindings")
 
 Requirements
 ============
